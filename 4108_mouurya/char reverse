@@ -1,0 +1,17 @@
+
+public class Charreverse {
+	public static void main(String[] args) {
+		char[] ch =  {'m','a','v','e','r','i','c'};
+		//String str = ch.toString();		
+		//int len = ch.length;
+		String str =new String(ch);
+		System.out.println(str);
+		char[] rev = str.toCharArray();
+	for(int i=str.length()-1;i>=0;i--)
+		{
+					System.out.print(rev[i]);
+  	}
+        	}
+
+    }
+
