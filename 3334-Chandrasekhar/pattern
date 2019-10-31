@@ -1,0 +1,39 @@
+package Orion;
+
+import java.util.Scanner;
+
+public class Pattern {
+	
+	static int n=5;
+	
+	public static void starpattern( int n) {
+		
+		Scanner ab = new Scanner (System.in);
+		
+		System.out.println("Enter Special character");
+		String a = ab.nextLine();
+		
+		int i, j;
+		
+		for ( i=0; i<n; i++)
+		{
+			
+			for ( j=0; j<=i; j++) {
+				
+			System.out.print(a);
+			
+			}
+			
+			System.out.println("\n");
+		}
+		
+
+	}
+	
+	public static void main(String[] args) {
+		
+	 starpattern(7);
+		
+	}
+
+}
