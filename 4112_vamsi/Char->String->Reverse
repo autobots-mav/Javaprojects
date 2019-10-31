@@ -4,10 +4,8 @@ public class oct_31_2019_reverseString {
 		String string =new String(ch);
 		System.out.println("array to string is : "+string);
 		System.out.print("reverse string is--- > ");
-		char[] st = string.toCharArray();
-		  for(int i=st.length-1;i>=0;i--) 
-      {
-			  System.out.print(st[i]);
-		  }
+		for(int i=string.length()-1;i>=0;i--) {
+			System.out.print(string.charAt(i));
+		}
 }
 }
