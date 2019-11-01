@@ -1,0 +1,17 @@
+package Test;
+public class Week1second
+{
+	public static void main(String[] args) 
+	{
+		char[] chars = {'S', 'U', 'B', 'A', 'S', 'R', 'E', 'E'};
+		String string = new String(chars);
+		System.out.println("CHARECTER TO STRING");
+		System.out.println(string);
+		String rev = "";
+		for(int i = string.length() - 1; i >= 0; i--)
+		{
+			rev = rev + string.charAt(i);
+		}
+		System.out.println(rev);
+	}
+}
