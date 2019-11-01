@@ -1,0 +1,33 @@
+package com.maveric.java;
+
+import java.util.Scanner;
+
+public class assignment {
+
+	public void assign(char m) 
+	{
+		for (int i = 0; i <= 5; i++)
+
+		{
+			for (int j = 1; j <= i; ++j) 
+			{
+
+				System.out.print(m);
+			}
+
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) 
+	{
+
+		System.out.println("Enter any symbol");
+		Scanner myObj = new Scanner(System.in); // Create a Scanner object
+		char ch  = myObj.next().charAt(0);
+				
+				
+		assignment a = new assignment();
+		a.assign(ch);
+	}
+}
