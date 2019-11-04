@@ -1,0 +1,30 @@
+package AssessmntPackage;
+
+public class CharToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] ch={'M','A','V','E','R','I','C'};
+		
+		 String str = new String(ch);
+	      System.out.println(str);	
+		
+	      		 String Reverse="";
+	        int length= str.length();
+		for( int i=0; i<1; i++)
+	 	{
+			 for(int j=0;j<1;j++)
+		 {
+	 			for(int k=length-1;k>=0;k--)
+				{
+	 					Reverse=Reverse+str.charAt(k);
+		 				System.out.println(Reverse);
+	      
+	      
+	      
+	}
+
+		 }}}}
+				
+				
+		
