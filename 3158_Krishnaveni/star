@@ -1,0 +1,33 @@
+package Assessmnt;
+import java.util.Scanner;
+public class star {
+	
+			static String m ;
+		public void create()
+		{
+			
+			Scanner sc =new Scanner(System.in);
+			System.out.println("Enter the Symbol:");
+			 m=sc.nextLine();
+			
+			 for(int i=1;i<=4;i++)
+			 {
+				
+				 for(int j=1;j<=i;j++)
+				 {
+					 System.out.print(m);
+				 }
+				System.out.println("\n");
+			 }
+		}
+		
+		public static void main(String[] args) {
+			
+	         star a = new star();
+	         a.create();
+			
+
+		}
+
+	}
+	
