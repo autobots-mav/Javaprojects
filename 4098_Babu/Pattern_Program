@@ -1,0 +1,48 @@
+package Assignment_GIT;
+
+import java.util.Date;
+import java.util.Scanner;
+
+public class Pyramid {
+	
+	public static void mypattern()
+	{
+		int i,j,n;
+		 String s;
+		 
+		 
+			
+		System.out.println("Please enter special among \n * or # ir !");
+		 
+		 Scanner sc = new Scanner(System.in);
+		 
+		 s=sc.next();
+		 
+		 if(s.equals("*")||s.equals("#")||s.equals("!"))
+		 {
+			 
+			 System.out.println("How many rows You want..plz enter");
+			 n=sc.nextInt();
+			
+			  for(i=0;i<n;i++)
+			 {
+				 for(j=0;j<=i;j++)
+				 
+					 System.out.print(s);
+				 System.out.println("\n");
+			 }
+			
+		 }	
+		 else
+			 mypattern();
+		 
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		mypattern();
+
+	}
+
+}
