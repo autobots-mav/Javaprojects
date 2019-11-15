@@ -33,3 +33,19 @@ public class XmlFile {
 	}
 	}
 }
+-----------------------------------------------------------------------------------------------------------------
+                                 Xml File
+-------------------------------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<Details>
+<Student>
+<rollNumber>101</rollNumber>
+<FirstName>Samyuktha</FirstName>
+<LastName>Saravanan</LastName>
+</Student>
+<Student>
+<rollNumber>102</rollNumber>
+<FirstName>Krishh</FirstName>
+<LastName>Poondala</LastName>
+</Student>
+</Details>
