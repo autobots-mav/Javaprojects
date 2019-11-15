@@ -1,0 +1,18 @@
+package seliniuma;
+
+public class ArrayToStringReverse {
+
+	public static void main(String[] args) {
+		
+		char[] ch= {'c','i','r','e','v','a','m'};
+		
+		String str = new String(ch);
+	    System.out.println(str);
+		StringBuilder ab=new StringBuilder(str);
+		System.out.println(ab.reverse());
+
+	}
+
+}
+
+	
