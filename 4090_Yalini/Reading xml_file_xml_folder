@@ -1,0 +1,19 @@
+<?xml version="1.0"?>  
+<class>  
+    <student>  
+        <id>16BCM560</id>  
+        <firstname>YALINI</firstname>  
+        <lastname>SAMPATH</lastname>  
+        <subject>COMPUTER SCIENCE</subject>  
+        <marks>93</marks>  
+    </student>  
+      
+    <student>  
+        <id>16BCM509</id>  
+        <firstname>BALAYOKESH</firstname>  
+        <lastname>SARAVANAN</lastname>  
+        <subject>ENGLISH</subject>  
+        <marks>94</marks>  
+    </student>  
+  
+</class>  
