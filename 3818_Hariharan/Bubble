@@ -1,0 +1,19 @@
+public class Bubble {
+
+	public static void main(String []args) {
+		String ref[] = { "Orion", "Infiniti", "Spectrum", "Eclipse", "Nexus"};
+		String temp;
+		System.out.println("Strings in sorted order:");
+		for (int j = 0; j < ref.length; j++) {
+			for (int i = j + 1; i < ref.length; i++) {
+				if (ref[i].compareTo(ref[j]) < 0) {
+					temp = ref[j];
+					ref[j] = ref[i];
+					ref[i] = temp;
+				}
+			}
+			System.out.println(ref[j]);
+		}
+	}
+
+}
